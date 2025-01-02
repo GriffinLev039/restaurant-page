@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+}
+
+:root{
+    --primary-color: #79201a;
+    --BG-Color: #fffff;
+}
+
+body {
+    background-color: wheat;
+}
+
+nav {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+button {
+    width: 33.33%;
+    height: 100%;
+    border: none;
+    background-color: none;
+    background-color: var(--BG-Color);
+
+}
+
+button:hover{
+    background-color: var(--BG-Color);
+    color: var(--primary-color);
+    text-decoration: underline;
+    
+}
+
+
+.menuItem {
+    background-color: antiquewhite;
+    border: 2px solid var(--primary-color);
+    border-radius: 15px;
+    width: 280px;
+    height: 250px;
+    padding: 10px 15px;
+}
+
+.menuContainer {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    gap: 15px;
+}
+
+#homeTopHalf {
+    color: white;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fe9%2Fd9%2F52%2Fe9d95202c0938d1ec9ef8ab98f82ed8a.jpg&f=1&nofb=1&ipt=9404af7d8a63abb6388a1bef64f8e3a4cb93f5bbf04d02118211f7c9437937ae&ipo=images);
+    white-space: pre;
+    background-size: cover;
+    text-align: center;
+    /* font-size: 100px; */
+    font-size: 4rem;
+    width: 100vw;
+    height: 50vh;
+    box-shadow: 0 4px 2px -2px black;
+}
+
+#homeBotHalf{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    gap: 100px;
+    align-items: center;
+    background-color: var(--primary-color);
+    width: 60vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    height: 40vh;
+    border-radius: 30px;
+}
+
+#homeBotHalf > p {
+    max-width: 600px;
+    color: white;
+    font-size: 25px;
+}
+
+#homeBotImg {
+    height: 80%;
+    width: 30%;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia-cdn.tripadvisor.com%2Fmedia%2Fphoto-s%2F14%2F59%2Fb0%2F85%2Fphoto1jpg.jpg&f=1&nofb=1&ipt=7e32a459bbd057c5a712c670d74072ce3cb564c9633a358ca6f91b40e6eb46f5&ipo=images);
+    border-radius: 15px;
+}
+
+.Selected {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fe9%2Fd9%2F52%2Fe9d95202c0938d1ec9ef8ab98f82ed8a.jpg&f=1&nofb=1&ipt=9404af7d8a63abb6388a1bef64f8e3a4cb93f5bbf04d02118211f7c9437937ae&ipo=images);
+
+    background-color: wheat;
+}
+
+#menuTop {
+    color: white;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fe9%2Fd9%2F52%2Fe9d95202c0938d1ec9ef8ab98f82ed8a.jpg&f=1&nofb=1&ipt=9404af7d8a63abb6388a1bef64f8e3a4cb93f5bbf04d02118211f7c9437937ae&ipo=images);
+    white-space: pre;
+    background-size: cover;
+    text-align: center;
+    /* font-size: 100px; */
+    font-size: 4rem;
+    width: 100vw;
+    height: 20vh;
+    margin-bottom: 4vh;
+    box-shadow: 0 4px 2px -2px black;
+}
